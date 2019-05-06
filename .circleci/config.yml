@@ -11,6 +11,6 @@ jobs:
       # - image: circleci/mongo:3.4.4
 
     steps:
-
+      - checkout
       - run: yarn install
       - run: yarn test
